@@ -1,16 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 1000005
+#define str string 
+#define ll long long int 
+
 int arr[MAX];
+
 int main()
 {
-    int k,l,m;
+    l k,l,m,i;
     cin>>k>>l>>m;
-    int arr1[m];
-    for(int i=0;i<m;i++)
+    ll arr1[m];
+    for( i=0;i<m;i++)
         cin>>arr1[i];
     arr[0]=0;
-    for(int i=1;i<MAX;i++)
+    for( i=1;i<MAX;i++)
     {
         if(i-1>=0 && arr[i-1]==0)
             arr[i]=1;
@@ -19,7 +23,8 @@ int main()
         if(i-l>=0 && arr[i-l]==0)
             arr[i]=1;
     }
-    for(int i=0;i<m;i++)
+    
+    for( i=0;i<m;i++)
     {
         if(arr[arr1[i]]==1)
             cout<<"A";
