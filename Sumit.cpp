@@ -1,7 +1,7 @@
 //copyright sumitraj387
 #include<bits/stdc++.h>
 using namespace std;
-#define int long long int
+#define ll long long int
 #define pb push_back//__standard_template_
 #define come_on ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0); //____program booster____
 #define pop pop_back
@@ -12,9 +12,9 @@ using namespace std;
 #define mod 1000000007
 main()
 {
-    int n,i,j,k;
+    ll n,i,j,k;
     cin>>n>>k;
-    int arr[n];
+    ll        arr[n];
     vector<int>v(k);
     list<int>q;
     for(i=0;i<n;i++)
@@ -29,15 +29,12 @@ main()
                 break;
             }
         }
-        if(c==0)
+      if(c==0)
         {
             if(q.size()<k)
                 q.push_front(arr[i]);
-            else if(q.size()==k)
-            {
-                q.pop();
-                q.push_front(arr[i]);
-            }
+            else if(q.size()==k);
+           
         }
  
     }
