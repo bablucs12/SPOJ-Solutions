@@ -27,13 +27,14 @@ main()
             {
                 c=1;
                 break;
+                //fgh
             }
         }
       if(c==0)
         {
             if(q.size()<k)
                 q.push_front(arr[i]);
-            else if(q.size()==k);
+         
            
         }
  
