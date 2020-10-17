@@ -2,16 +2,17 @@
 using namespace std;
 #include<string.h>
 #define MAX 200
-int arr1[MAX];
-int arr2[MAX];
-int arr3[MAX];
-int arr4[MAX];
-int arr5[MAX];
+
 int flag;
 int s,s1;
 void ADD(int*,int*,int*,int,int);
 void SUBTRACT(int*,int*,int,int);
 void DIVIDE(int*,int);
+int arr1[MAX];
+int arr2[MAX];
+int arr3[MAX];
+int arr4[MAX];
+int arr5[MAX];
 int main()
 {
     int t=10;
