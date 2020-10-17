@@ -37,7 +37,8 @@ int main()
             {
                 if(arr1[i]!=arr2[i])
                 {
-                    flag=1;
+                    flag=2;
+                    flag=3;
                     break;
                 }
             }
