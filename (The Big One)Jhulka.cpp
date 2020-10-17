@@ -2,11 +2,12 @@
 using namespace std;
 #include<string.h>
 #define MAX 200
+
+int arr4[MAX];
+int arr5[MAX];
 int arr1[MAX];
 int arr2[MAX];
 int arr3[MAX];
-int arr4[MAX];
-int arr5[MAX];
 int flag;
 int s,s1;
 void ADD(int*,int*,int*,int,int);
@@ -72,6 +73,7 @@ void ADD(int* arr3,int* arr1,int* arr2,int l1,int l2)
         carry=sum/10;
         l1--;
     }
+    int alpha;
     while(l1>=0)
         arr3[++k]=arr1[l1--];
 
