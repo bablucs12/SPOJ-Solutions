@@ -64,13 +64,7 @@ void ADD(int* arr3,int* arr1,int* arr2,int l1,int l2)
         l1--;
         l2--;
     }
-    while(carry)
-    {
-        sum=arr1[l1]+carry;
-        arr3[++k]=sum%10;
-        carry=sum/10;
-        l1--;
-    }
+ 
     while(l1>=0)
         arr3[++k]=arr1[l1--];
 
