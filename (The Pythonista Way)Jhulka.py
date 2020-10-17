@@ -1,3 +1,5 @@
+
+a="sfssdf"
 t = 10
 for i in range(0,t):
     a = int(input())
