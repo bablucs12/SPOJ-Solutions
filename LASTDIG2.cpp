@@ -6,13 +6,14 @@ int main()
     int t;
     cin>>t;
     while(t--)
-    {
+    {ll b;
         string str;
         cin>>str;
         ll a=str.at(str.length()-1)-48;
-        ll b;
+        
         cin>>b;
         if(b==0)
+      
             cout<<"1"<<endl;
         else
         {
@@ -25,6 +26,7 @@ int main()
                 while(rp--)
                     val*=a;
             }
+            
             cout<<val%10<<endl;
         }
     }
